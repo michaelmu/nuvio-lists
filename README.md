@@ -62,6 +62,7 @@ For each list, the build creates:
 The repository currently includes:
 
 ```text
+/catalog/series/high-stakes-reality-series.json
 /catalog/movie/mind-bending-indie-scifi.json
 /catalog/movie/obsessions-power-ambition-documentaries.json
 ```
