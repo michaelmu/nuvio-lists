@@ -27,6 +27,7 @@ for (const catalog of manifest.catalogs) {
       assert.ok(meta.name);
       assert.match(meta.poster, /^https:\/\//);
       assert.match(meta.releaseInfo, /^\d{4}$/);
+      assert.ok(Number(meta.imdbRating) >= 7);
     }
   });
 }

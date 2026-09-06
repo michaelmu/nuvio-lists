@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
+    "ratings": "node scripts/sync-imdb-ratings.mjs",
     "test": "node scripts/build.mjs && node --test",
     "serve": "node scripts/serve.mjs"
   }

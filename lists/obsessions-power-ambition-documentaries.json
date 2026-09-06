@@ -3,36 +3,218 @@
   "name": "Obsessions, Power & Ambition",
   "description": "Character-driven documentaries about strange competitions, consuming pursuits, political power, and the stories people tell to justify themselves.",
   "type": "movie",
+  "targetSize": 30,
   "items": [
-    { "title": "Man vs Snake: The Long and Twisted Tale of Nibbler", "year": 2015, "imdbId": "tt2933794" },
-    { "title": "Air Guitar Nation", "year": 2006, "imdbId": "tt0799915" },
-    { "title": "Spellbound", "year": 2002, "imdbId": "tt0334405" },
-    { "title": "The Unknown Known", "year": 2013, "imdbId": "tt2390962" },
-    { "title": "The Thin Blue Line", "year": 1988, "imdbId": "tt0096257" },
-    { "title": "Pumping Iron", "year": 1977, "imdbId": "tt0076578" },
-    { "title": "American Movie", "year": 1999, "imdbId": "tt0181288" },
-    { "title": "The Act of Killing", "year": 2012, "imdbId": "tt2375605" },
-    { "title": "Indie Game: The Movie", "year": 2012, "imdbId": "tt1942884" },
-    { "title": "Enron: The Smartest Guys in the Room", "year": 2005, "imdbId": "tt1016268" },
-    { "title": "The Barkley Marathons: The Race That Eats Its Young", "year": 2014, "imdbId": "tt2400291" },
-    { "title": "The Look of Silence", "year": 2014, "imdbId": "tt3521134" },
-    { "title": "Winnebago Man", "year": 2009, "imdbId": "tt1396557" },
-    { "title": "The War Room", "year": 1993, "imdbId": "tt0108515" },
-    { "title": "Hands on a Hardbody: The Documentary", "year": 1997, "imdbId": "tt0116481" },
-    { "title": "Inside Job", "year": 2010, "imdbId": "tt1645089" },
-    { "title": "Word Wars", "year": 2004, "imdbId": "tt0390632" },
-    { "title": "The Gatekeepers", "year": 2012, "imdbId": "tt2309788" },
-    { "title": "Murderball", "year": 2005, "imdbId": "tt0436613" },
-    { "title": "Taxi to the Dark Side", "year": 2007, "imdbId": "tt0854678" },
-    { "title": "Jiro Dreams of Sushi", "year": 2011, "imdbId": "tt1772925" },
-    { "title": "Why We Fight", "year": 2005, "imdbId": "tt0436971" },
-    { "title": "Ecstasy of Order: The Tetris Masters", "year": 2011, "imdbId": "tt1836974" },
-    { "title": "Hearts and Minds", "year": 1974, "imdbId": "tt0071604" },
-    { "title": "Finders Keepers", "year": 2015, "imdbId": "tt3462002" },
-    { "title": "The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers", "year": 2009, "imdbId": "tt1319726" },
-    { "title": "Tickled", "year": 2016, "imdbId": "tt5278506" },
-    { "title": "Standard Operating Procedure", "year": 2008, "imdbId": "tt0896866" },
-    { "title": "No End in Sight", "year": 2007, "imdbId": "tt0912593" },
-    { "title": "The Pigeon Tunnel", "year": 2023, "imdbId": "tt28486633" }
-  ]
+    {
+      "title": "Man vs Snake: The Long and Twisted Tale of Nibbler",
+      "year": 2015,
+      "imdbId": "tt2933794",
+      "imdbRating": 7,
+      "imdbVotes": 2665
+    },
+    {
+      "title": "Air Guitar Nation",
+      "year": 2006,
+      "imdbId": "tt0799915",
+      "imdbRating": 7.1,
+      "imdbVotes": 1398
+    },
+    {
+      "title": "Spellbound",
+      "year": 2002,
+      "imdbId": "tt0334405",
+      "imdbRating": 7.6,
+      "imdbVotes": 12660
+    },
+    {
+      "title": "The Unknown Known",
+      "year": 2013,
+      "imdbId": "tt2390962",
+      "imdbRating": 7,
+      "imdbVotes": 4426
+    },
+    {
+      "title": "The Thin Blue Line",
+      "year": 1988,
+      "imdbId": "tt0096257",
+      "imdbRating": 7.9,
+      "imdbVotes": 26377
+    },
+    {
+      "title": "Pumping Iron",
+      "year": 1977,
+      "imdbId": "tt0076578",
+      "imdbRating": 7.3,
+      "imdbVotes": 26871
+    },
+    {
+      "title": "American Movie",
+      "year": 1999,
+      "imdbId": "tt0181288",
+      "imdbRating": 7.8,
+      "imdbVotes": 21280
+    },
+    {
+      "title": "The Act of Killing",
+      "year": 2012,
+      "imdbId": "tt2375605",
+      "imdbRating": 8.2,
+      "imdbVotes": 44735
+    },
+    {
+      "title": "Indie Game: The Movie",
+      "year": 2012,
+      "imdbId": "tt1942884",
+      "imdbRating": 7.6,
+      "imdbVotes": 21754
+    },
+    {
+      "title": "Enron: The Smartest Guys in the Room",
+      "year": 2005,
+      "imdbId": "tt1016268",
+      "imdbRating": 7.5,
+      "imdbVotes": 21365
+    },
+    {
+      "title": "The Barkley Marathons: The Race That Eats Its Young",
+      "year": 2014,
+      "imdbId": "tt2400291",
+      "imdbRating": 7.7,
+      "imdbVotes": 6449
+    },
+    {
+      "title": "Man on Wire",
+      "year": 2008,
+      "imdbId": "tt1155592",
+      "imdbRating": 7.7,
+      "imdbVotes": 61354
+    },
+    {
+      "title": "The Look of Silence",
+      "year": 2014,
+      "imdbId": "tt3521134",
+      "imdbRating": 8.2,
+      "imdbVotes": 15059
+    },
+    {
+      "title": "Winnebago Man",
+      "year": 2009,
+      "imdbId": "tt1396557",
+      "imdbRating": 7.2,
+      "imdbVotes": 5271
+    },
+    {
+      "title": "The War Room",
+      "year": 1993,
+      "imdbId": "tt0108515",
+      "imdbRating": 7.3,
+      "imdbVotes": 4746
+    },
+    {
+      "title": "Hands on a Hardbody: The Documentary",
+      "year": 1997,
+      "imdbId": "tt0116481",
+      "imdbRating": 7.6,
+      "imdbVotes": 2710
+    },
+    {
+      "title": "Inside Job",
+      "year": 2010,
+      "imdbId": "tt1645089",
+      "imdbRating": 8.2,
+      "imdbVotes": 82857
+    },
+    {
+      "title": "The Gatekeepers",
+      "year": 2012,
+      "imdbId": "tt2309788",
+      "imdbRating": 7.6,
+      "imdbVotes": 6127
+    },
+    {
+      "title": "Murderball",
+      "year": 2005,
+      "imdbId": "tt0436613",
+      "imdbRating": 7.7,
+      "imdbVotes": 10830
+    },
+    {
+      "title": "Taxi to the Dark Side",
+      "year": 2007,
+      "imdbId": "tt0854678",
+      "imdbRating": 7.4,
+      "imdbVotes": 17821
+    },
+    {
+      "title": "Jiro Dreams of Sushi",
+      "year": 2011,
+      "imdbId": "tt1772925",
+      "imdbRating": 7.8,
+      "imdbVotes": 40018
+    },
+    {
+      "title": "Why We Fight",
+      "year": 2005,
+      "imdbId": "tt0436971",
+      "imdbRating": 8,
+      "imdbVotes": 10530
+    },
+    {
+      "title": "Ecstasy of Order: The Tetris Masters",
+      "year": 2011,
+      "imdbId": "tt1836974",
+      "imdbRating": 7.5,
+      "imdbVotes": 1661
+    },
+    {
+      "title": "Hearts and Minds",
+      "year": 1974,
+      "imdbId": "tt0071604",
+      "imdbRating": 8.2,
+      "imdbVotes": 6671
+    },
+    {
+      "title": "The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers",
+      "year": 2009,
+      "imdbId": "tt1319726",
+      "imdbRating": 7.7,
+      "imdbVotes": 2520
+    },
+    {
+      "title": "Tickled",
+      "year": 2016,
+      "imdbId": "tt5278506",
+      "imdbRating": 7.4,
+      "imdbVotes": 23160
+    },
+    {
+      "title": "Standard Operating Procedure",
+      "year": 2008,
+      "imdbId": "tt0896866",
+      "imdbRating": 7.4,
+      "imdbVotes": 4221
+    },
+    {
+      "title": "No End in Sight",
+      "year": 2007,
+      "imdbId": "tt0912593",
+      "imdbRating": 8.2,
+      "imdbVotes": 8921
+    },
+    {
+      "title": "Control Room",
+      "year": 2004,
+      "imdbId": "tt0391024",
+      "imdbRating": 7.6,
+      "imdbVotes": 5378
+    },
+    {
+      "title": "The Pigeon Tunnel",
+      "year": 2023,
+      "imdbId": "tt28486633",
+      "imdbRating": 7,
+      "imdbVotes": 2289
+    }
+  ],
+  "ratingsAsOf": "2026-09-05"
 }

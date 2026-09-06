@@ -3,36 +3,218 @@
   "name": "High-Stakes Reality",
   "description": "Obsessive pursuits, extreme work, survival, strategy, and skill-driven competitions, anchored by Gold Rush.",
   "type": "series",
+  "targetSize": 30,
   "items": [
-    { "title": "Gold Rush", "year": 2010, "imdbId": "tt1800864" },
-    { "title": "Deadliest Catch", "year": 2005, "imdbId": "tt0446809" },
-    { "title": "Bering Sea Gold", "year": 2012, "imdbId": "tt2182427" },
-    { "title": "Aussie Gold Hunters", "year": 2016, "imdbId": "tt6186672" },
-    { "title": "Outback Opal Hunters", "year": 2018, "imdbId": "tt8211564" },
-    { "title": "Yukon Gold", "year": 2013, "imdbId": "tt2758692" },
-    { "title": "Gold Rush: Parker's Trail", "year": 2017, "imdbId": "tt6639066" },
-    { "title": "Gold Rush: White Water", "year": 2018, "imdbId": "tt7749176" },
-    { "title": "Ice Road Truckers", "year": 2007, "imdbId": "tt1068912" },
-    { "title": "Life Below Zero", "year": 2013, "imdbId": "tt2964642" },
-    { "title": "Mountain Men", "year": 2012, "imdbId": "tt2202488" },
-    { "title": "Alone", "year": 2015, "imdbId": "tt4803766" },
-    { "title": "Outlast", "year": 2023, "imdbId": "tt26690964" },
-    { "title": "Race Across the World", "year": 2019, "imdbId": "tt9909248" },
-    { "title": "Survivor", "year": 2000, "imdbId": "tt0239195" },
-    { "title": "The Amazing Race", "year": 2001, "imdbId": "tt0285335" },
-    { "title": "The Traitors", "year": 2023, "imdbId": "tt15557874" },
-    { "title": "The Mole", "year": 2022, "imdbId": "tt21822078" },
-    { "title": "The Devil's Plan", "year": 2023, "imdbId": "tt27995115" },
-    { "title": "Physical: 100", "year": 2023, "imdbId": "tt25274446" },
-    { "title": "Forged in Fire", "year": 2015, "imdbId": "tt4680444" },
-    { "title": "Face Off", "year": 2011, "imdbId": "tt1663641" },
-    { "title": "Ink Master", "year": 2012, "imdbId": "tt1865740" },
-    { "title": "Blown Away", "year": 2019, "imdbId": "tt9908860" },
-    { "title": "LEGO Masters", "year": 2020, "imdbId": "tt9615014" },
-    { "title": "The Great British Bake Off", "year": 2010, "imdbId": "tt1877368" },
-    { "title": "The Great Pottery Throw Down", "year": 2015, "imdbId": "tt6417190" },
-    { "title": "Top Shot", "year": 2010, "imdbId": "tt1569972" },
-    { "title": "The Curse of Oak Island", "year": 2014, "imdbId": "tt3455408" },
-    { "title": "American Pickers", "year": 2010, "imdbId": "tt1596786" }
-  ]
+    {
+      "title": "Gold Rush",
+      "year": 2010,
+      "imdbId": "tt1800864",
+      "imdbRating": 7.3,
+      "imdbVotes": 6178
+    },
+    {
+      "title": "Deadliest Catch",
+      "year": 2005,
+      "imdbId": "tt0446809",
+      "imdbRating": 7.8,
+      "imdbVotes": 10032
+    },
+    {
+      "title": "Outback Opal Hunters",
+      "year": 2018,
+      "imdbId": "tt8211564",
+      "imdbRating": 7.1,
+      "imdbVotes": 380
+    },
+    {
+      "title": "Gold Rush: Parker's Trail",
+      "year": 2017,
+      "imdbId": "tt6639066",
+      "imdbRating": 7,
+      "imdbVotes": 800
+    },
+    {
+      "title": "Gold Rush: Freddy Dodge's Mine Rescue",
+      "year": 2021,
+      "imdbId": "tt13610512",
+      "imdbRating": 8.2,
+      "imdbVotes": 631
+    },
+    {
+      "title": "Life Below Zero",
+      "year": 2013,
+      "imdbId": "tt2964642",
+      "imdbRating": 7.9,
+      "imdbVotes": 2680
+    },
+    {
+      "title": "Mountain Men",
+      "year": 2012,
+      "imdbId": "tt2202488",
+      "imdbRating": 7.3,
+      "imdbVotes": 1936
+    },
+    {
+      "title": "The Last Alaskans",
+      "year": 2015,
+      "imdbId": "tt4715246",
+      "imdbRating": 8.6,
+      "imdbVotes": 1202
+    },
+    {
+      "title": "Port Protection",
+      "year": 2015,
+      "imdbId": "tt4838586",
+      "imdbRating": 8.2,
+      "imdbVotes": 966
+    },
+    {
+      "title": "Homestead Rescue",
+      "year": 2016,
+      "imdbId": "tt5938484",
+      "imdbRating": 8,
+      "imdbVotes": 1166
+    },
+    {
+      "title": "Dirty Jobs",
+      "year": 2005,
+      "imdbId": "tt0458259",
+      "imdbRating": 7.7,
+      "imdbVotes": 10044
+    },
+    {
+      "title": "Expedition Unknown",
+      "year": 2015,
+      "imdbId": "tt4305162",
+      "imdbRating": 8.2,
+      "imdbVotes": 4731
+    },
+    {
+      "title": "Alone",
+      "year": 2015,
+      "imdbId": "tt4803766",
+      "imdbRating": 8.4,
+      "imdbVotes": 9419
+    },
+    {
+      "title": "Race Across the World",
+      "year": 2019,
+      "imdbId": "tt9909248",
+      "imdbRating": 8.3,
+      "imdbVotes": 1911
+    },
+    {
+      "title": "Survivor",
+      "year": 2000,
+      "imdbId": "tt0239195",
+      "imdbRating": 7.6,
+      "imdbVotes": 30383
+    },
+    {
+      "title": "The Amazing Race",
+      "year": 2001,
+      "imdbId": "tt0285335",
+      "imdbRating": 7.8,
+      "imdbVotes": 16601
+    },
+    {
+      "title": "The Traitors",
+      "year": 2023,
+      "imdbId": "tt15557874",
+      "imdbRating": 7.7,
+      "imdbVotes": 8834
+    },
+    {
+      "title": "The Mole",
+      "year": 2022,
+      "imdbId": "tt21822078",
+      "imdbRating": 7.5,
+      "imdbVotes": 5935
+    },
+    {
+      "title": "The Devil's Plan",
+      "year": 2023,
+      "imdbId": "tt27995115",
+      "imdbRating": 8.3,
+      "imdbVotes": 6475
+    },
+    {
+      "title": "Physical: 100",
+      "year": 2023,
+      "imdbId": "tt25274446",
+      "imdbRating": 7.7,
+      "imdbVotes": 13569
+    },
+    {
+      "title": "Forged in Fire",
+      "year": 2015,
+      "imdbId": "tt4680444",
+      "imdbRating": 8.2,
+      "imdbVotes": 5110
+    },
+    {
+      "title": "Face Off",
+      "year": 2011,
+      "imdbId": "tt1663641",
+      "imdbRating": 8.2,
+      "imdbVotes": 7713
+    },
+    {
+      "title": "Ink Master",
+      "year": 2012,
+      "imdbId": "tt1865740",
+      "imdbRating": 7.4,
+      "imdbVotes": 5412
+    },
+    {
+      "title": "Blown Away",
+      "year": 2019,
+      "imdbId": "tt9908860",
+      "imdbRating": 7.2,
+      "imdbVotes": 4365
+    },
+    {
+      "title": "LEGO Masters",
+      "year": 2020,
+      "imdbId": "tt9615014",
+      "imdbRating": 7.5,
+      "imdbVotes": 3800
+    },
+    {
+      "title": "The Great British Bake Off",
+      "year": 2010,
+      "imdbId": "tt1877368",
+      "imdbRating": 8.6,
+      "imdbVotes": 16053
+    },
+    {
+      "title": "The Great Pottery Throw Down",
+      "year": 2015,
+      "imdbId": "tt6417190",
+      "imdbRating": 8.6,
+      "imdbVotes": 1988
+    },
+    {
+      "title": "Top Shot",
+      "year": 2010,
+      "imdbId": "tt1569972",
+      "imdbRating": 7.6,
+      "imdbVotes": 1628
+    },
+    {
+      "title": "American Pickers",
+      "year": 2010,
+      "imdbId": "tt1596786",
+      "imdbRating": 7.1,
+      "imdbVotes": 9207
+    },
+    {
+      "title": "The Repair Shop",
+      "year": 2017,
+      "imdbId": "tt6685272",
+      "imdbRating": 8.7,
+      "imdbVotes": 2451
+    }
+  ],
+  "ratingsAsOf": "2026-09-05"
 }

@@ -12,13 +12,28 @@ Add or edit a file under `lists/`. Each item must have a stable IMDb ID so Nuvio
   "name": "Mind-Bending Indie Sci-Fi",
   "description": "A short description.",
   "type": "movie",
+  "targetSize": 30,
   "items": [
-    { "title": "The Infinite Man", "year": 2014, "imdbId": "tt2553424" }
+    {
+      "title": "Predestination",
+      "year": 2014,
+      "imdbId": "tt2397535",
+      "imdbRating": 7.4,
+      "imdbVotes": 339571
+    }
   ]
 }
 ```
 
 Use `type: "series"` for a television catalog. Keep movie and series items in separate source files.
+
+Every title must have an IMDb rating of at least 7.0. To refresh the stored ratings and vote counts from IMDb's daily non-commercial ratings dataset, run:
+
+```sh
+npm run ratings
+```
+
+The command fails if any title has fallen below the threshold. Replace those titles, refresh the ratings again, and run the test suite before publishing.
 
 ## Build and test
 

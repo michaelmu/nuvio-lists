@@ -47,13 +47,14 @@ const manifest = {
 await writeJson(join(outputDirectory, "manifest.json"), manifest);
 
 for (const list of lists) {
-  const metas = list.items.map(({ title, year, imdbId }) => ({
+  const metas = list.items.map(({ title, year, imdbId, imdbRating }) => ({
     id: imdbId,
     type: list.type,
     name: title,
     poster: `https://images.metahub.space/poster/medium/${imdbId}/img`,
     background: `https://images.metahub.space/background/medium/${imdbId}/img`,
-    releaseInfo: String(year)
+    releaseInfo: String(year),
+    imdbRating: imdbRating.toFixed(1)
   }));
 
   await writeJson(
@@ -83,6 +84,12 @@ function validateList(list, filename) {
   if (!Array.isArray(list.items) || list.items.length === 0) {
     throw new Error(`${filename}: items must be a non-empty array`);
   }
+  if (!Number.isInteger(list.targetSize) || list.targetSize < 1) {
+    throw new Error(`${filename}: targetSize must be a positive integer`);
+  }
+  if (list.items.length !== list.targetSize) {
+    throw new Error(`${filename}: expected ${list.targetSize} items, found ${list.items.length}`);
+  }
 
   const ids = new Set();
   list.items.forEach((item, index) => {
@@ -95,6 +102,12 @@ function validateList(list, filename) {
     }
     if (!/^tt\d{7,9}$/.test(item.imdbId ?? "")) {
       throw new Error(`${location}: imdbId must look like tt1234567`);
+    }
+    if (typeof item.imdbRating !== "number" || item.imdbRating < 7 || item.imdbRating > 10) {
+      throw new Error(`${location}: imdbRating must be between 7.0 and 10.0`);
+    }
+    if (!Number.isInteger(item.imdbVotes) || item.imdbVotes < 1) {
+      throw new Error(`${location}: imdbVotes must be a positive integer`);
     }
     if (ids.has(item.imdbId)) {
       throw new Error(`${location}: duplicate IMDb ID ${item.imdbId}`);

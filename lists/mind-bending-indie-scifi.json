@@ -1,38 +1,220 @@
 {
   "id": "mind-bending-indie-scifi",
-  "name": "Mind-Bending Indie Sci-Fi",
-  "description": "Lo-fi, cerebral science fiction selected for fans of Primer, Coherence, Timecrimes, and Upstream Color.",
+  "name": "Mind-Bending Sci-Fi",
+  "description": "Cerebral science fiction and reality-bending stories selected for fans of Primer, Coherence, Timecrimes, and Upstream Color.",
   "type": "movie",
+  "targetSize": 30,
   "items": [
-    { "title": "The Infinite Man", "year": 2014, "imdbId": "tt2553424" },
-    { "title": "Triangle", "year": 2009, "imdbId": "tt1187064" },
-    { "title": "Predestination", "year": 2014, "imdbId": "tt2397535" },
-    { "title": "Time Lapse", "year": 2014, "imdbId": "tt2669336" },
-    { "title": "Beyond the Infinite Two Minutes", "year": 2020, "imdbId": "tt14500584" },
-    { "title": "River", "year": 2023, "imdbId": "tt27695005" },
-    { "title": "Resolution", "year": 2012, "imdbId": "tt1977895" },
-    { "title": "The Endless", "year": 2017, "imdbId": "tt3986820" },
-    { "title": "Something in the Dirt", "year": 2022, "imdbId": "tt14895716" },
-    { "title": "The One I Love", "year": 2014, "imdbId": "tt2756032" },
-    { "title": "Sound of My Voice", "year": 2011, "imdbId": "tt1748207" },
-    { "title": "Another Earth", "year": 2011, "imdbId": "tt1549572" },
-    { "title": "I Origins", "year": 2014, "imdbId": "tt2884206" },
-    { "title": "Frequencies", "year": 2013, "imdbId": "tt2414766" },
-    { "title": "Enemy", "year": 2013, "imdbId": "tt2316411" },
-    { "title": "The Double", "year": 2013, "imdbId": "tt1825157" },
-    { "title": "The Frame", "year": 2014, "imdbId": "tt2567038" },
-    { "title": "The Incident", "year": 2014, "imdbId": "tt3528756" },
-    { "title": "Synchronicity", "year": 2015, "imdbId": "tt2049543" },
-    { "title": "Infinity Chamber", "year": 2016, "imdbId": "tt3839880" },
-    { "title": "ARQ", "year": 2016, "imdbId": "tt5640450" },
-    { "title": "The Artifice Girl", "year": 2022, "imdbId": "tt20859464" },
-    { "title": "Marjorie Prime", "year": 2017, "imdbId": "tt4978710" },
-    { "title": "The Vast of Night", "year": 2019, "imdbId": "tt6803046" },
-    { "title": "Under the Skin", "year": 2013, "imdbId": "tt1441395" },
-    { "title": "Aniara", "year": 2018, "imdbId": "tt7589524" },
-    { "title": "A Ghost Story", "year": 2017, "imdbId": "tt6265828" },
-    { "title": "The Discovery", "year": 2017, "imdbId": "tt5155780" },
-    { "title": "The Man from Earth", "year": 2007, "imdbId": "tt0756683" },
-    { "title": "La Jetée", "year": 1962, "imdbId": "tt0056119" }
-  ]
+    {
+      "title": "Predestination",
+      "year": 2014,
+      "imdbId": "tt2397535",
+      "imdbRating": 7.4,
+      "imdbVotes": 339571
+    },
+    {
+      "title": "12 Monkeys",
+      "year": 1995,
+      "imdbId": "tt0114746",
+      "imdbRating": 8,
+      "imdbVotes": 683947
+    },
+    {
+      "title": "Beyond the Infinite Two Minutes",
+      "year": 2020,
+      "imdbId": "tt14500584",
+      "imdbRating": 7.2,
+      "imdbVotes": 11336
+    },
+    {
+      "title": "Source Code",
+      "year": 2011,
+      "imdbId": "tt0945513",
+      "imdbRating": 7.5,
+      "imdbVotes": 587680
+    },
+    {
+      "title": "Donnie Darko",
+      "year": 2001,
+      "imdbId": "tt0246578",
+      "imdbRating": 8,
+      "imdbVotes": 919397
+    },
+    {
+      "title": "Moon",
+      "year": 2009,
+      "imdbId": "tt1182345",
+      "imdbRating": 7.8,
+      "imdbVotes": 398173
+    },
+    {
+      "title": "Ex Machina",
+      "year": 2014,
+      "imdbId": "tt0470752",
+      "imdbRating": 7.7,
+      "imdbVotes": 645203
+    },
+    {
+      "title": "Arrival",
+      "year": 2016,
+      "imdbId": "tt2543164",
+      "imdbRating": 7.9,
+      "imdbVotes": 878292
+    },
+    {
+      "title": "Gattaca",
+      "year": 1997,
+      "imdbId": "tt0119177",
+      "imdbRating": 7.7,
+      "imdbVotes": 350486
+    },
+    {
+      "title": "Dark City",
+      "year": 1998,
+      "imdbId": "tt0118929",
+      "imdbRating": 7.5,
+      "imdbVotes": 228393
+    },
+    {
+      "title": "Mr. Nobody",
+      "year": 2009,
+      "imdbId": "tt0485947",
+      "imdbRating": 7.7,
+      "imdbVotes": 259173
+    },
+    {
+      "title": "The Butterfly Effect",
+      "year": 2004,
+      "imdbId": "tt0289879",
+      "imdbRating": 7.6,
+      "imdbVotes": 560251
+    },
+    {
+      "title": "Open Your Eyes",
+      "year": 1997,
+      "imdbId": "tt0125659",
+      "imdbRating": 7.7,
+      "imdbVotes": 76370
+    },
+    {
+      "title": "The One I Love",
+      "year": 2014,
+      "imdbId": "tt2756032",
+      "imdbRating": 7,
+      "imdbVotes": 47867
+    },
+    {
+      "title": "I Origins",
+      "year": 2014,
+      "imdbId": "tt2884206",
+      "imdbRating": 7.3,
+      "imdbVotes": 142343
+    },
+    {
+      "title": "The Fountain",
+      "year": 2006,
+      "imdbId": "tt0414993",
+      "imdbRating": 7.1,
+      "imdbVotes": 259464
+    },
+    {
+      "title": "Pi",
+      "year": 1998,
+      "imdbId": "tt0138704",
+      "imdbRating": 7.3,
+      "imdbVotes": 193678
+    },
+    {
+      "title": "Contact",
+      "year": 1997,
+      "imdbId": "tt0118884",
+      "imdbRating": 7.5,
+      "imdbVotes": 316925
+    },
+    {
+      "title": "Solaris",
+      "year": 1972,
+      "imdbId": "tt0069293",
+      "imdbRating": 7.9,
+      "imdbVotes": 105130
+    },
+    {
+      "title": "Stalker",
+      "year": 1979,
+      "imdbId": "tt0079944",
+      "imdbRating": 8,
+      "imdbVotes": 157849
+    },
+    {
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "imdbId": "tt0338013",
+      "imdbRating": 8.3,
+      "imdbVotes": 1194974
+    },
+    {
+      "title": "Being John Malkovich",
+      "year": 1999,
+      "imdbId": "tt0120601",
+      "imdbRating": 7.7,
+      "imdbVotes": 371155
+    },
+    {
+      "title": "Synecdoche, New York",
+      "year": 2008,
+      "imdbId": "tt0383028",
+      "imdbRating": 7.5,
+      "imdbVotes": 105808
+    },
+    {
+      "title": "Brazil",
+      "year": 1985,
+      "imdbId": "tt0088846",
+      "imdbRating": 7.8,
+      "imdbVotes": 223031
+    },
+    {
+      "title": "Mulholland Drive",
+      "year": 2001,
+      "imdbId": "tt0166924",
+      "imdbRating": 7.9,
+      "imdbVotes": 433668
+    },
+    {
+      "title": "Paprika",
+      "year": 2006,
+      "imdbId": "tt0851578",
+      "imdbRating": 7.7,
+      "imdbVotes": 115547
+    },
+    {
+      "title": "Perfect Blue",
+      "year": 1997,
+      "imdbId": "tt0156887",
+      "imdbRating": 8,
+      "imdbVotes": 126502
+    },
+    {
+      "title": "Ghost in the Shell",
+      "year": 1995,
+      "imdbId": "tt0113568",
+      "imdbRating": 7.9,
+      "imdbVotes": 176583
+    },
+    {
+      "title": "The Man from Earth",
+      "year": 2007,
+      "imdbId": "tt0756683",
+      "imdbRating": 7.8,
+      "imdbVotes": 220842
+    },
+    {
+      "title": "La Jetée",
+      "year": 1962,
+      "imdbId": "tt0056119",
+      "imdbRating": 8.2,
+      "imdbVotes": 40202
+    }
+  ],
+  "ratingsAsOf": "2026-09-05"
 }
