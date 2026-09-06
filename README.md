@@ -59,8 +59,9 @@ For each list, the build creates:
 /catalog/{type}/{list-id}.json
 ```
 
-The initial repository includes:
+The repository currently includes:
 
 ```text
 /catalog/movie/mind-bending-indie-scifi.json
+/catalog/movie/obsessions-power-ambition-documentaries.json
 ```
